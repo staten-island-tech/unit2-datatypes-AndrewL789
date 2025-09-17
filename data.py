@@ -49,8 +49,57 @@ else:
 """ x = "test"
 print (f"hello {x}") """
 
-
+""" 
 temp = 75
 if temp > 68:
     print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
 
+
+ #challenge 2 off or even
+""" number = input("give me a number")
+
+
+if float(number) % 2 == 0:
+    print('even')
+else:
+    print('odd')
+  """
+#challenge 3  tip calc
+""" bill = input("bill?")
+
+service = input("rate out service?")
+
+if service == ('bad'):
+    print("bill")
+    final = bill
+    print(final)
+elif service == ('okay'):
+    final = float(bill) * 1.15 
+    print(final)
+elif service == ('good'):
+    final = float(bill) * 1.20
+    print(final)
+elif service == ('great'):
+    final = float(bill) * 1.25
+    print(final)
+else:
+    print("no") """
+
+
+""" # factor 5 
+def factor(x,y):
+    if x % y == 0 :
+        print(f"{y} is a factor of {x}")
+    else:
+        print(f"{y} is not a factor of {x}")
+ """
+
+#challenge 3 
+def factor(x,y):
+    for i in range(y-x):
+    print(int(x % y) 
+    
