@@ -99,7 +99,32 @@ def factor(x,y):
  """
 
 #challenge 3 
-def factor(x,y):
-    for i in range(y-x):
-    print(int(x % y) 
+
+def fan(number):
+    print(1)
+    print(number)
+    for i in range(number):
+        if number % 2 == 0:
+            print(number / 2)
+            number = number / 2 
+        
+        
+           
+       
+        
+  
+
+fan(1000)
+
+
+
+
     
+
+ 
+
+
+
+
+
+
