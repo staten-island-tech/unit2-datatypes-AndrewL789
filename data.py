@@ -100,21 +100,49 @@ def factor(x,y):
 
 #challenge 3 
 
-def fan(number):
-    print(1)
-    print(number)
-    for i in range(number):
-        if number % 2 == 0:
-            print(number / 2)
-            number = number / 2 
-        
-        
-           
-       
-        
-  
+""" def fan(x):
+    factors = []
+    
 
-fan(1000)
+    for i in range(1, x + 1):
+        if x % i == 0:
+            factors.append(i)
+    print(factors)
+ 
+        
+fan(4738947) """
+
+
+# challenge 4 
+
+        
+def gcf_er(x, y):
+    set1 = [] 
+    set2 = []
+    finalset = []
+
+    for i in range(1, x + 1):
+        if x % i == 0:
+            set1.append(i)
+
+    for i in range (1, y + 1):
+        if y % i == 0:
+            set2.append(i)
+
+    for i in range(3434):
+        if set1[i] == set2[i]:
+            finalset.append(i)
+
+    print(finalset)
+
+
+gcf_er(40,20)
+            
+
+
+
+
+
 
 
 
