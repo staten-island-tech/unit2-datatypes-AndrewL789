@@ -129,14 +129,21 @@ def gcf_er(x, y):
         if y % i == 0:
             set2.append(i)
 
-    for i in range(3434):
-        if set1[i] == set2[i]:
-            finalset.append(i)
-
-    print(finalset)
+    
 
 
-gcf_er(40,20)
+
+    
+
+   
+
+
+gcf_er(35, 25)
+    
+
+
+
+
             
 
 
