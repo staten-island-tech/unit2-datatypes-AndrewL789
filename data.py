@@ -150,17 +150,18 @@ gcf(int(blah1), int(blah2)) """
 
 # gcf rewritten MORE EFFICENT
 
-x = input("num 1")
-y = input("num 2")
+x = input("num 1?:")
+y = input("num 2?:")
 
-uhh = -1 
-gcf = 0 
-for i in range(x + 1):
-    if x % uhh ==0 and y % uhh == 0:
-        gcf = uhh
-        uhh = uhh + 1 
 
+
+for i in range( 1, int(x) + 1):
+    if int(x) % i ==0 and int(y) % i == 0:
+        gcf = i
+        
 print(gcf)
+
+
 
    
 
