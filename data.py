@@ -113,9 +113,9 @@ def factor(x,y):
 fan(4738947) """
 
 
-# challenge 4 
+# challenge 4 DO NOT DO THIS OVERCOMPLICATED
 
-        
+"""         
 def gcf(x, y):
     set1 = [] 
     set2 = []
@@ -143,12 +143,24 @@ def gcf(x, y):
 blah1 = input("number 1?")
 blah2 = input("number 2?")
 
-gcf(int(blah1), int(blah2))
+gcf(int(blah1), int(blah2)) """
     
 
 
 
-    
+# gcf rewritten MORE EFFICENT
+
+x = input("num 1")
+y = input("num 2")
+
+uhh = -1 
+gcf = 0 
+for i in range(x + 1):
+    if x % uhh ==0 and y % uhh == 0:
+        gcf = uhh
+        uhh = uhh + 1 
+
+print(gcf)
 
    
 
