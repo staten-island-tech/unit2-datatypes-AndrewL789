@@ -116,10 +116,12 @@ fan(4738947) """
 # challenge 4 
 
         
-def gcf_er(x, y):
+def gcf(x, y):
     set1 = [] 
     set2 = []
     finalset = []
+    if x < y:
+        y, x 
 
     for i in range(1, x + 1):
         if x % i == 0:
@@ -128,7 +130,20 @@ def gcf_er(x, y):
     for i in range (1, y + 1):
         if y % i == 0:
             set2.append(i)
+    
+    finalset = list(set(set1) & set(set2))
+    m = max(finalset)
+    if m in set1:
+        if m in set2:
+            print(m)
+    elif m in set2:
+        print("no common factors")
 
+
+blah1 = input("number 1?")
+blah2 = input("number 2?")
+
+gcf(int(blah1), int(blah2))
     
 
 
@@ -138,7 +153,6 @@ def gcf_er(x, y):
    
 
 
-gcf_er(35, 25)
     
 
 
